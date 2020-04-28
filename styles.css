@@ -1,0 +1,34 @@
+body {
+    background-image: url(assets/images/concert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+kbd {
+    font-size: 4rem;
+    display: block;
+}
+
+.keys {
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.keys__key {
+    border: solid 5px white;
+    min-height: 20vh;  
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.keys__sound {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+}
